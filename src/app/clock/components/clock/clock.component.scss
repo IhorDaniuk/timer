@@ -1,0 +1,32 @@
+@import 'styles';
+
+.timer {
+    &__content {
+      margin: 20px 0;
+      padding: 20px;
+      position: fixed;
+      min-width: 500px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 2px;
+      text-align: center;
+      background: #2a2e35;
+      border-radius: 25px;
+    }
+
+    &__count {
+      color: white;
+      font-size: 88px;
+    }
+
+    &__controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    
+    &__button {
+      margin-left: 10px;
+    }
+}

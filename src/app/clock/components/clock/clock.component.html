@@ -1,0 +1,14 @@
+<div class="timer">
+    <div class="timer__content">
+      <div class="timer__clock">
+        <p class="timer__count">{{ time$ | async | clock }}</p>
+      </div>
+  
+      <div class="timer__controls">
+        <button #start class="timer__button button button--success">Start</button>
+        <button #stop class="timer__button button button--warning">Stop</button>
+        <button #reset class="timer__button button button--danger">Reset</button>
+        <button #wait class="timer__button button">Wait</button>
+      </div>
+    </div>
+  </div>
